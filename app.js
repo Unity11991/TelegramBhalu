@@ -8,7 +8,7 @@ app.use(bodyParser.json());
 const token = '7028137882:AAFfpa6V2d9JpGkRJJaTG4uLhp5PNMkCTTY';
 const bot = new TelegramBot(token);
 
-bot.setWebHook(`https://9623-2401-4900-1ca9-319b-9c17-1290-1482-f3ea.ngrok-free.app/bot${token}`);
+bot.setWebHook(`https://b84a-2401-4900-1ca9-319b-9c17-1290-1482-f3ea.ngrok-free.app/bot${token}`);
 
 app.post(`/bot${token}`, (req, res) => {
     bot.processUpdate(req.body);
