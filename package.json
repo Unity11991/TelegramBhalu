@@ -1,0 +1,19 @@
+{
+  "name": "tg-game",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start" : "app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ngrok": "ngrok http 3000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "node-telegram-bot-api": "^0.66.0"
+  }
+}
